@@ -78,7 +78,6 @@
   h5,
   h6 {
     > .header-mark::before {
-      content: "|";
       margin-right: .3125rem;
       color: $single-link-color;
       margin-left: -0.15rem;
@@ -91,7 +90,6 @@
   }
 
   h2 > .header-mark::before {
-    content: "#";
     margin-left: -0.1rem;
   }
 

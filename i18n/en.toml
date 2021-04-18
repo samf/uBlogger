@@ -52,7 +52,7 @@ other = "Switch Theme"
 
 # === partials/footer.html ===
 [poweredBySome]
-other = "Powered by {{ .Hugo }} | Theme - {{ .Theme }}"
+other = "Powered by {{ .Hugo }} | Theme - {{ .Theme }} | Hosted by <a href='https://efmrl.com'>efmrl.com</a>"
 # === partials/footer.html ===
 
 # === partials/comment.html ===

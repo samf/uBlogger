@@ -25,7 +25,7 @@
 {{- end -}}
 {{- end -}}
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="{{ $twitterImage }}"/>
+<meta name="twitter:image" content="{{$params.ImageMeta }}"/>
 <meta name="twitter:title" content="{{ $params.Title }}"/>
 <meta name="twitter:description" content="{{ $params.Description }}"/>
 {{- with ($params.twitter | default .Site.Params.Social.Twitter ) -}}

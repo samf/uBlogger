@@ -18,8 +18,6 @@
     <link rel="manifest" href="/site.webmanifest">
 {{- end -}}
 
-<link rel="canonical" href="{{ .Permalink }}" />
-
 {{- with .OutputFormats.Get "RSS" -}}
     <link rel="alternate" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
     <link rel="feed" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
